@@ -5,7 +5,7 @@ from cog import BasePredictor, Input, Path
 import torch
 import torchaudio
 from typing import List
-from resemble.resemble_enhance.enhancer.inference import denoise, enhance
+from resemble_enhance.enhancer.inference import denoise, enhance
 
 class Predictor(BasePredictor):
     def setup(self) -> None:

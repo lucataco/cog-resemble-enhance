@@ -20,6 +20,7 @@ build:
     - "torchaudio==2.1.1"
     - "torchvision==0.16.1"
     - "tqdm==4.66.1"
+    - "resemble-enhance==0.0.1"
 
 # predict.py defines how predictions are run on your model
 predict: "predict.py:Predictor"
