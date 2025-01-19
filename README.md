@@ -6,6 +6,12 @@ This is an implementation of [ResembleAI/resemble-enhance](https://github.com/re
 
 Follow the [model pushing guide](https://replicate.com/docs/guides/push-a-model) to push your own model to [Replicate](https://replicate.com).
 
+## Setup
+
+Download the weight into a resemble folder
+
+    huggingface-cli download ResembleAI/resemble-enhance --local-dir resemble
+    
 ## Basic Usage
 
 Download weights/repo
